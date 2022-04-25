@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'com.antway.android' version "1.0.0"
+    id 'com.antway.android'
 }
 
 android {

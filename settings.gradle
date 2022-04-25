@@ -9,10 +9,7 @@ pluginManagement {
 
     resolutionStrategy {
         eachPlugin {
-            println(requested.module + "," + requested.id + "," + requested.version)
-            println("====")
             if (requested.id.id == 'com.antway.android') {
-
                 useModule("com.antway.android:api:${requested.version}")
             }
         }
